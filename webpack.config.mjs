@@ -10,6 +10,7 @@ export default {
   output: {
     path: path.resolve(process.cwd(), 'dist'),
     filename: 'bundle.js',
+    publicPath: '/',
     clean: true,
   },
   resolve: {
