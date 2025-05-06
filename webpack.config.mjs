@@ -53,7 +53,7 @@ export default {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './public/index.html' }),
+    new HtmlWebpackPlugin({ template: path.resolve(process.cwd(), 'public/index.html') }),
     new MiniCssExtractPlugin(),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
