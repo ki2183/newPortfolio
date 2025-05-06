@@ -1,0 +1,38 @@
+.welcome_container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top:-100%;
+    background-color: black;
+    color:white;
+    z-index: 100;
+}
+
+.welcome_frame {
+    padding-top: clamp(1rem, 3vw, 10rem);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: clamp(1vw, 1vw, 1rem);
+
+    & > div {
+        font-size: clamp(1rem, 3rem, calc(1540px * 0.15));
+        font-weight: 500;
+        font-family: 'Paperlogy';
+    }
+}
+
+.welcome_list {
+    position: absolute;
+    bottom: 5%;
+    font-size: clamp(1rem, 4vw, calc(1540px * 0.04));
+    font-weight: 600;
+    width: 100%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,33 @@
+.projects_container {
+    &:first-child {
+        margin-top: 1rem;
+    }
+}
+.project_card {
+    padding-bottom: 1rem;
+
+    & > time {
+        font-size: 0.7rem;
+    }
+
+    & > h2 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+}
+
+.line_animate {
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+    height: 1px;
+    display: flex;
+
+    & > div{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 1px;
+        border-top: 1px solid black;
+    }
+}

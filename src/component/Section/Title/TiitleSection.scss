@@ -1,0 +1,39 @@
+.title_container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    font-size: 15vw;
+    letter-spacing: clamp(1vw, 1vw, 1rem);
+    font-size: clamp(1rem, 14vw, calc(1540px * 0.15));
+    font-weight: 500;
+    font-family: 'Paperlogy';
+    height: 1em;
+    margin-top: 5rem;
+}
+
+.container_filptext {
+    position: relative;
+    display: flex;
+    position: relative;
+}
+#fixed_title {
+    position: absolute;
+    flex-direction: row;
+}
+
+.container_charlist {
+    display: flex;
+    flex-direction: column;
+
+    & > span {
+        height: 1em;
+        display: flex;
+        align-items: center;        
+    }
+}
+
+

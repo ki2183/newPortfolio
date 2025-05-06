@@ -1,0 +1,58 @@
+@use './fonts/pretendard.font.scss';
+
+html, body { 
+  cursor: none;
+  width: 100%;
+  min-width: 390px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Paperlogy','Pretendard', sans-serif !important;
+  background-color: #fafafa;
+  color: #222;
+  overflow-x: hidden;
+  scroll-behavior: smooth
+}
+html {
+  overflow-y: hidden;
+}
+
+  h1 {
+    color:red;
+    
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  // 스크린 리더 전용
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }

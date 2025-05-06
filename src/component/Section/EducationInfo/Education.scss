@@ -1,0 +1,18 @@
+.education_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 134px;
+}
+
+.education_group {
+    & > div:nth-child(1) {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    & > div:nth-child(2) {
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+}

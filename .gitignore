@@ -1,0 +1,16 @@
+/node_modules
+
+/dist
+/public
+
+.vscode/
+
+*.log
+
+.env
+.env.*
+
+.DS_Store
+*.cache
+*.tmp
+*.swp
