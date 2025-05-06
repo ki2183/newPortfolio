@@ -1,6 +1,6 @@
 
 import SectionWrapper from '../../Wrapper/SectionWrapper/SectionWrapper';
-import TypingText from '../../Typing/Typeing';
+import TypingText from '../../Animate/Typing/Typeing';
 import './StackComponent.scss';
 
 const StackInfo = () => {

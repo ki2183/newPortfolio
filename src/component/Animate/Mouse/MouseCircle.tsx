@@ -1,5 +1,6 @@
-import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
+import gsap from "gsap";
+
 
 const MouseCircle = () => {
     const circleRef = useRef<HTMLDivElement>(null);
@@ -10,7 +11,7 @@ const MouseCircle = () => {
         gsap.to(circleRef.current, {
           x: e.clientX,
           y: e.clientY,
-          duration: 0.5,
+          duration: 0.65,
           ease: 'power3.out',
         });
       };

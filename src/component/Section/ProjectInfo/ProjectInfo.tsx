@@ -1,8 +1,6 @@
 import SectionWrapper from "../../Wrapper/SectionWrapper/SectionWrapper";
 import { DateToText } from "../../../util/date";
 import "./ProjectInfo.scss";
-import { useEffect, useRef, useState } from "react";
-import gsap from "gsap";
 
 type portfolio = {
   start: string,
@@ -61,7 +59,7 @@ const Project = ({
 }:portfolio) => {
 
   return (
-    // <a>
+    <a style={{ display : "block" }}>
       <article className="project_card">
           <time dateTime={`${start}/${end}`} className="">
             {DateToText(start, end)}
@@ -73,6 +71,6 @@ const Project = ({
 
           <h2>{title}</h2>
       </article>
-    // </a>
+    </a>
   );
 }
