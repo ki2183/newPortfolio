@@ -42,6 +42,10 @@ html {
     white-space: nowrap;
     border-width: 0;
   }
+  a {
+    all: unset;
+    display: block; 
+  }
 
   .flex-row {
     display: flex;

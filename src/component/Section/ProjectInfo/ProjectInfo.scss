@@ -16,6 +16,13 @@
     }
 }
 
+.project_link {
+    &:focus {
+        filter: brightness(90%);
+    }               
+    background-color: #fafafa;
+}
+
 .line_animate {
     margin-left: auto;
     margin-right: auto;
